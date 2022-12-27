@@ -6,11 +6,13 @@ body {
     margin: 0;
     /* background-color: #f1f1f1; */
     /* background: linear-gradient(135deg, #fbfbfc55 25%, transparent 25%) -7px 0/ 14px 14px, linear-gradient(225deg, #fbfbfc 25%, transparent 25%) -7px 0/ 14px 14px, linear-gradient(315deg, #fbfbfc55 25%, transparent 25%) 0px 0/ 14px 14px, linear-gradient(45deg, #fbfbfc 25%, #f1f1f1 25%) 0px 0/ 14px 14px; */
-    background-color: #ffffff;
+    /* background-color: #ffffff;
     opacity: 1;
     background-image:  radial-gradient(#f8d605 2px, transparent 2px), radial-gradient(#f8d605 2px, #ffffff 2px);
     background-size: 80px 80px;
-    background-position: 0 0,40px 40px;
+    background-position: 0 0,40px 40px; */
+    background-color: #fefefe;
+background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='49' viewBox='0 0 28 49'%3E%3Cg fill-rule='evenodd'%3E%3Cg id='hexagons' fill='%23f8d605' fill-opacity='0.15' fill-rule='nonzero'%3E%3Cpath d='M13.99 9.25l13 7.5v15l-13 7.5L1 31.75v-15l12.99-7.5zM3 17.9v12.7l10.99 6.34 11-6.35V17.9l-11-6.34L3 17.9zM0 15l12.98-7.5V0h-2v6.35L0 12.69v2.3zm0 18.5L12.98 41v8h-2v-6.85L0 35.81v-2.3zM15 0v7.5L27.99 15H28v-2.31h-.01L17 6.35V0h-2zm0 49v-8l12.99-7.5H28v2.31h-.01L17 42.15V49h-2z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
 }  
 .nav-bar {
     display: flex;
@@ -24,8 +26,8 @@ body {
 .nav-links {
     display: flex;
     font-family: 'Bebas Neue', cursive, sans-serif;
-    font-size: 1.5rem;
-    color:#f8d605
+    font-size: 2rem;
+    color: rgba(85,26,139,255);
     
 }
 img {
@@ -52,19 +54,76 @@ ul {
 }
 
 .welcome-title{
+    margin-top: 100px;
     font-family: 'Bebas Neue', cursive, sans-serif;
-    font-size: 6rem;
+    font-size: 9rem;
     display: flex;
     justify-content: center;
     letter-spacing: 4px;
     margin-bottom: 15px;
+    text-align: center;
+
     
 }
 .short-bio {
    text-align: center;
-    font-family: 'Bebas Neue', cursive, sans-serif;
-    font-size: 1.5rem;
+    font-family: 'Abel', cursive, sans-serif;
+    font-size: 2rem;
     width: 50%;
     margin: 0 auto;
     font-weight: 200;
+    
+}
+
+.socials-bar{
+    float:left;
+    position:static;
+    background: white;
+    margin-top: -150px;
+    width: 50px;
+    padding:5px 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 20px rgb(22, 21, 21, 0.2);
+}
+.socials {
+    margin-top: 20px;
+    font-size: 2rem;
+    cursor: pointer;
+    padding: 7px;
+    text-align: center;
+
+}
+.projects-btn {
+    background: rgba(85,26,139,255);
+    color: white;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 75px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 3px 20px rgb(22, 21, 21, 0.3);
+    font-family: 'Bebas Neue', cursive, sans-serif ;
+    font-size: 1.5rem;
+}
+
+.projects-btn:hover{
+    color: rgba(85,26,139,255);
+    background: #f8d605;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 85px;
+    display: flex;
+    justify-content: center;
+    padding: 20px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 3px 5px 20px rgb(22, 21, 21, 0.3);
+    font-family: 'Bebas Neue', cursive, sans-serif ;
+    font-size: 1.5rem;
+    cursor: pointer;
 }
