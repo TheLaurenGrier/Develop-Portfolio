@@ -1,3 +1,70 @@
 html {
-    font-family: 'Abel', sans-serif;  
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    /* background-color: #f1f1f1; */
+    /* background: linear-gradient(135deg, #fbfbfc55 25%, transparent 25%) -7px 0/ 14px 14px, linear-gradient(225deg, #fbfbfc 25%, transparent 25%) -7px 0/ 14px 14px, linear-gradient(315deg, #fbfbfc55 25%, transparent 25%) 0px 0/ 14px 14px, linear-gradient(45deg, #fbfbfc 25%, #f1f1f1 25%) 0px 0/ 14px 14px; */
+    background-color: #ffffff;
+    opacity: 1;
+    background-image:  radial-gradient(#f8d605 2px, transparent 2px), radial-gradient(#f8d605 2px, #ffffff 2px);
+    background-size: 80px 80px;
+    background-position: 0 0,40px 40px;
+}  
+.nav-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: white;
+    margin: 0;
+    
+
+}
+.nav-links {
+    display: flex;
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    font-size: 1.5rem;
+    color:#f8d605
+    
+}
+img {
+    margin: 5px 20px;
+    height: 90px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 20px rgb(22, 21, 21, 0.6);
+    
+}
+li {
+
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    margin: 10px 40px;
+}
+
+
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    margin-right: 100px;
+}
+
+.welcome-title{
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    font-size: 6rem;
+    display: flex;
+    justify-content: center;
+    letter-spacing: 4px;
+    margin-bottom: 15px;
+    
+}
+.short-bio {
+   text-align: center;
+    font-family: 'Bebas Neue', cursive, sans-serif;
+    font-size: 1.5rem;
+    width: 50%;
+    margin: 0 auto;
+    font-weight: 200;
 }
