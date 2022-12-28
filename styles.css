@@ -111,6 +111,7 @@ ul {
     box-shadow: 3px 3px 20px rgb(22, 21, 21, 0.3);
     font-family: 'Bebas Neue', cursive, sans-serif ;
     font-size: 1.5rem;
+    cursor: pointer;
 
 }
 
@@ -125,7 +126,7 @@ i:hover {
 .arrow-btn {
     font-size: 1.5rem;
     margin-top: 50px;
-    margin-bottom: 300px;
+
     text-align: center;
     padding-bottom: 70px;
     
@@ -133,6 +134,34 @@ i:hover {
 
 .about{
     background: antiquewhite;
-    background-size: cover;
+   height:600px;
 
 }
+
+.projects {
+    background: whitesmoke;
+    padding-top: 10px;
+}
+h1{
+    text-align: center;
+    color: rgba(28, 83, 142) ;
+    background: whitesmoke;
+
+}
+.projects-card {
+    display: flex;
+    justify-content: space-around;
+    background: whitesmoke;
+    
+  
+    
+}
+
+.project {
+    border:solid 4px rgba(28, 83, 142) ;
+    padding:300px 170px;
+    border-radius: 40px;
+    box-shadow: 10px 8px 10px rgb(22, 21, 21, 0.2);
+
+}
+
