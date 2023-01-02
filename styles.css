@@ -19,6 +19,7 @@ header {
 
 }
 .nav-bar {
+    padding-top: 20px;
     display: flex  col;
     align-items: center;
     background: rgba(28, 83, 142, 0.4);
@@ -72,15 +73,15 @@ ul {
 .welcome-title{
     margin-top: 10px;
     font-family: 'Bebas Neue', cursive, sans-serif;
-    font-size: 5rem;
+    font-size: 6rem;
     display: flex;
     justify-content: center;
     letter-spacing: 4px;
     margin-bottom: 0px;
     text-align: center;
     color: antiquewhite;
-
-    
+    line-height: 100px;
+  
 }
 .short-bio {
    text-align: center;
