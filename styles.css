@@ -233,3 +233,48 @@ h1{
     font-size: 30px;
     cursor: pointer; 
 }
+
+
+
+
+/* Media Queries */
+
+@media (min-width: 768px) {
+
+    .nav-bar{
+        width: 100%;
+    }
+
+    .nav-links a {
+        display: flex;
+        font-family: 'Bebas Neue', cursive, sans-serif;
+        font-size: 2rem;
+        color: #f8d605;
+        text-decoration: none;
+        
+        
+    }
+
+    .welcome-title{
+        margin-top: 100px;
+        font-family: 'Bebas Neue', cursive, sans-serif;
+        font-size: 9rem;
+        display: flex;
+        justify-content: center;
+        letter-spacing: 4px;
+        margin-bottom: 15px;
+        text-align: center;
+        width: 100%;
+        color: antiquewhite;
+    }
+
+    header {
+        overflow: scroll;
+        height:auto;
+    }
+
+}
+
+@media (min-width: 1024px){
+
+}
