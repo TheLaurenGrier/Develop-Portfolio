@@ -9,12 +9,13 @@
     <link rel="icon" type="image/x-icon" href="LG-favicon.png">
     <!-- Styles -->
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="normalize.css">
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Abel&family=Bebas+Neue&display=swap" rel="stylesheet">
     <link
     rel="stylesheet"
     href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   />
-  <link rel="stylesheet" href="normalize.css">
+ 
   <!-- Font Awesome Icons -->
   <script src="https://kit.fontawesome.com/966ae968c4.js" crossorigin="anonymous"></script>
 </head>
@@ -24,7 +25,7 @@
         <nav class="nav-bar">
             <!-- Profile Picture -->
             <div class="profile-pic" id="profile-pic">
-                <a href="index.html"><img src="Lauren-profile-picture.jpg" alt="Lauren's profile picture"></a>
+                <a href="index.html"><img src="Lauren-profile-picture.jpg" alt="Lauren's profile picture" class="profile-picture"></a>
             </div>
             
             <div class="nav-links" id="nav-links">
@@ -32,22 +33,23 @@
                     <li><a href="about.html">About</a></li>
                     <li><a href="skills.html">Skills</a></li>
                     <li><a href="contact.html">Contact</a></li>
-                    <li><a href="#">Resume</a></li>
+                    <li><a href="resume.html">Resume</a></li>
                     <li><a href="projects.html">Projects</a></li>
                 </ul>
             </div>
         </nav>
         <div class="background">
             <div class="welcome">
-                <p class="welcome-title animate__animated animate__slideInDown">
-                    Hi, I'm Lauren Grier
-                </p>
+                <h1 class="welcome-title animate__animated animate__slideInDown">Hi, I'm </h1>
+                    
+                    
+               <h1 class="welcome-title animate__animated animate__slideInDown">Lauren Grier </h1>
                 <p class="short-bio">
                     A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product
                 </p>
             </div>
             <div>
-                <button class="projects-btn">Projects</button>
+                <a href="projects.html"><button class="projects-btn">Projects</button></a>
             </div>
             <div class="socials-bar">
                 <div class="socials" ><a href="https://github.com/TheLaurenGrier" target="_blank"><i class="fa-brands fa-github"></a></i></div>
@@ -56,47 +58,11 @@
                 <div class="socials"><a href="https://www.youtube.com/channel/UCziQelbs5nZXaILjr0mKasQ" target="_blank"><i class="fa-brands fa-youtube"></a></i></i></div> 
             </div>
         </div>
-        <div class="arrow-btn">
+        
+        <!-- <div class="arrow-btn">
             <i class="fa-solid fa-arrow-down fa-fade"></i>
-        </div>
+        </div> -->
     </header>
-    <div>
-        <section class="projects" id="projects">
-            <h1>Projects</h1>
-            <div class="projects-card">
-                <div class=" card project">
-                    Project 1
-                </div>
-                <div class=" card project">
-                    Project 2
-                </div>
-                <div class=" card project">
-                    Project 3
-                </div>
-                <div class=" card project">
-                    Project 4
-                </div>
-            </div>
-        </section>
-            <section class="about" id="about">
-                <p>My name is Lauren Grier. I am Charlotte Native. I don't know what to say here. Hire me please. I started making WIX sites during the pandemic, and I enjoy it. I am a life-long-learner. </p>
-            </section>
-
-            <section class="skills" id="skills">
-                    All The skills
-            </section>
-
-            <section class="contact" id="contact">
-                Here's my number, babe.
-        
-            </section>
-
-            <section class="resume" id="resume">
-                Not a whole lot of relevant work experience, but I do work.
-            </section>
-    </div>
-        
-    
     
 <!-- JavaScript -->
 <script src="script.js"></script>
