@@ -8,7 +8,7 @@ html {
 }
 
 body {
-    
+    background: cover;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -85,14 +85,14 @@ ul {
     line-height: 70px;
   
 }
-.short-bio {
+.short-bio, p {
    text-align: center;
     font-family: 'Abel', sans-serif;
     font-size: 1.5em;
     width: 90%;
     margin: 20px auto;
     font-weight: 200;
-    color: #e5ab09;
+    color: #f8d605;
     
 }
 
@@ -276,8 +276,19 @@ a{
     cursor: pointer; 
     
 }
+.about-me-container{
+    width: 100%;
+    text-align: center;
+}
 
+.about-me-pic {
+    width: 50%;
+    border-radius: 50%;
+    margin: 0 auto;
+    border:6px solid #0E2A47;
+    box-shadow: 1px 1px 10px antiquewhite;
 
+}
 
 
 
@@ -298,7 +309,10 @@ a{
         margin: 0;
         
     }
-
+    .about-me-pic {
+        border-radius: 30%;
+        
+    }
 
     
 }
@@ -427,7 +441,7 @@ a{
     .projects-btn:hover {
         background: antiquewhite;
         color: #0E2A47;
-        margin-top: 80px;
+        
     
     }
     
@@ -533,7 +547,10 @@ a{
         cursor: pointer; 
         
     }
-    
+    .about-me-pic {
+        width: 30%;
+        
+    }
 }
 
 
@@ -659,8 +676,7 @@ a{
     .projects-btn:hover {
         background: antiquewhite;
         color: #0E2A47;
-        margin-top: 80px;
-    
+        
     }
     
     
@@ -765,7 +781,10 @@ a{
         cursor: pointer; 
     }
     
-    
+    .about-me-pic {
+        width: 30%;
+        
+    }
     
 
 }
