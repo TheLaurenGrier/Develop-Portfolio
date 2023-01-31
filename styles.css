@@ -612,7 +612,7 @@ a{
       justify-content: center;
       align-items: center;
       margin: 0 auto;
-      max-height: calc(100vh - 10%);
+      max-height: calc(100vh - 5%);
       
     }
     .socials {
@@ -639,11 +639,17 @@ a{
     
     
     .about{
-       height:600px;
+       height:100%;
     
     }
+
+    .about-page-container{
+        height: 100%;
+        
+    }
     .about-me-container{
-        height: 100vh;
+    
+        
     }
     
     .projects {
