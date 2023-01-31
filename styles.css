@@ -25,7 +25,8 @@ a {
     text-decoration: none;
 }
 .nav-bar {
-    padding-top: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: flex  col;
     align-items: center;
     background: rgba(68, 71, 75, 0.7);
