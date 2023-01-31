@@ -612,7 +612,7 @@ a{
       justify-content: center;
       align-items: center;
       margin: 0 auto;
-      max-height: calc(100vh - 20%);
+      max-height: calc(100vh - 10%);
       
     }
     .socials {
