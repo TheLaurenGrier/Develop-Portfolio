@@ -319,6 +319,9 @@ a{
     border-radius: 20px;
 }
 
+.container{
+    height: 63vh;
+}
 
 /* Media Queries */
 
